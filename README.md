@@ -72,9 +72,7 @@ Several boxplots were plotted to identify outliers in the data.
 
 * Model inbuilt feature importance and eli5 permutation importance were used for plotting on models Random Forest, Extra Trees Classifier, and XGBoost to identify the most important features for each model
 * Partial dependence plots on XGBoost model revealed that:
-  * Up to about gps height 500 the model's likeliness to predict functional decreases, but increases after that
-  * There doesn't seem to be much effect on predicting functional but needs repair
-  * Predicting non functional is as expected, roughly the reverse of predicting functional
+  * Up to about gps height 500 the model's likeliness to predict functional decreases, but increases after that, there doesn't seem to be much effect on predicting functional but needs repair, predicting non functional is as expected, roughly the reverse of predicting functional
   * If operation time is more, it becomes more likely to predict it's functional, it becomes less likely to predict it's functional but needs repair, it becomes less likely to predict it's non functional
   * When population increases, chances of being functional increases and being non functional decreases
   * Population has no effect on predicting if it is functional but needs repair
