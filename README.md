@@ -1,6 +1,6 @@
 # Pump it Up: Data Mining the Water Table
 
-Github Link: 
+Github Link: https://github.com/Yoshani/Pump-It-Up
 
 This repository contains the code used for submissions made on the competition Pump it Up: Data Mining the Water Table, hosted by DrivenData.
 
