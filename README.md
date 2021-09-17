@@ -90,7 +90,10 @@ Ensembling was conducted using the following models
 
 ## Post processing
 
-* Model inbuilt feature importance and eli5 permutation importance were used for plotting on models Random Forest, Extra Trees Classifier, and XGBoost to identify the most important features for each model
+* Model inbuilt feature importance, eli5 permutation importance and SHAP summary plots were used for plotting on models Random Forest, Extra Trees Classifier, and XGBoost to identify the most important features for each model
+  * The dry quality of water is a very important feature to all models
+  * Longitude seemed to matter more than latitude
+
 * Partial dependence plots on XGBoost model revealed that:
   * Up to about gps height 500 the model's likeliness to predict functional decreases, but increases after that, there doesn't seem to be much effect on predicting functional but needs repair, predicting non functional is as expected, roughly the reverse of predicting functional
   * If operation time is more, it becomes more likely to predict it's functional, it becomes less likely to predict it's functional but needs repair, it becomes less likely to predict it's non functional
@@ -98,7 +101,7 @@ Ensembling was conducted using the following models
   * Population has no effect on predicting if it is functional but needs repair
   * If the pipe was built after around 2000, it becomes more likely that the model predicts it is functional
   * Similarly for pipes built after around 2000, the pipes are less likely to be predicted functional needs repair or non functional
-* SHAP summary plots and dependence contribution plots revealed that:
+* SHAP dependence contribution plots revealed that:
   * The nearer the construction year, the more likely it is to be functional. Also, the likelihood of recently built pipes to be dry is very low.
   * Towards the middle of the year, the pipes are less likely to be dry, probably since Tanzania is reported to have the monsoon season roughly between March-May. Also during this period the tendency for the prediction to be functional is more. This observation may be somehow related to the fact that some pipes may be reported to be non-functional only because the well is dried up, and they are now functional due to rain.
 
