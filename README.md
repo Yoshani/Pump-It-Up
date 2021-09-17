@@ -1,5 +1,7 @@
 # Pump it Up: Data Mining the Water Table
 
+Github Link: 
+
 This repository contains the code used for submissions made on the competition Pump it Up: Data Mining the Water Table, hosted by DrivenData.
 
 For the competition, two main submission codes are presented. The benchmark code mainly consists of all the preprocessing and feature engineering approaches that were tried for the dataset. With this, the random forest model only was able to achieve a score of 0.8143 in the competition.
@@ -99,3 +101,11 @@ Ensembling was conducted using the following models
 * SHAP summary plots and dependence contribution plots revealed that:
   * The nearer the construction year, the more likely it is to be functional. Also, the likelihood of recently built pipes to be dry is very low.
   * Towards the middle of the year, the pipes are less likely to be dry, probably since Tanzania is reported to have the monsoon season roughly between March-May. Also during this period the tendency for the prediction to be functional is more. This observation may be somehow related to the fact that some pipes may be reported to be non-functional only because the well is dried up, and they are now functional due to rain.
+
+## Proof of Submission
+
+Drivendata user name: moracse_170494F
+
+![rank](https://user-images.githubusercontent.com/46979289/133734792-b16b76f7-9e14-4463-b5d6-83a1c18d7253.png)
+![submissions](https://user-images.githubusercontent.com/46979289/133734821-96f1465c-404a-42b4-8aa1-b9208c179ad1.png)
+
