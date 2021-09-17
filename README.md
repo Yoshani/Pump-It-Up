@@ -68,6 +68,24 @@ Several boxplots were plotted to identify outliers in the data.
 
 * This was done using grid search for models Random Forest and XGBoost to identify the best hyperparameters
 
+## Models
+
+The following models were used:
+
+* RandomForestClassifier
+* ExtraTreesClassifier
+* XGBClassifier
+* GradientBoostingClassifier
+* LGBMClassifier
+* SVM
+* CatBoostClassifier
+* MLPClassifier
+
+Ensembling was conducted using the following models
+
+* StackingClassifier with LogisticRegression as final estimator
+* VotingClassifier
+
 ## Post processing
 
 * Model inbuilt feature importance and eli5 permutation importance were used for plotting on models Random Forest, Extra Trees Classifier, and XGBoost to identify the most important features for each model
